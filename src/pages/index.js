@@ -1,3 +1,13 @@
 import React from "react"
+import Header from '../components/header';
 
-export default () => <div>Hello world!</div>
+const IndexPage = () => {
+  return (
+    <div>
+      Главная
+      <Header/>
+    </div>
+  )
+};
+
+export default IndexPage;
